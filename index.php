@@ -34,9 +34,9 @@
 </html>
 <script type="text/javascript">
     $('#submit').on('click', function(){
-        var name = $('#shout').val();
+        var name = $('#shout').value;
     console.log(name);
-    if(name == " " || name == null || /\s/g.test(name)){
+    if(name == "" || name == null || /\s/g.test(name)){
 			alert('Please fill in your name');
 		}
     });
