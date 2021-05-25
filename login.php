@@ -14,6 +14,11 @@
         
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <link href="css/style.css" rel="stylesheet">
+		<style>
+			.scroll{
+				border-radius : 5px;
+			}
+		</style
 	</head>
 
 	<body>
